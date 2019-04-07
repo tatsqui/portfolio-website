@@ -1,5 +1,11 @@
+#portfolio {
+  display: flex;
+  flex-flow: column;
+  align-items: center
+}
+
 #portfolio p {
-  display: block;
   margin-right: 3em;
   margin-left: 3em;
+  
 }

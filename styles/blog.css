@@ -1,0 +1,11 @@
+#blog {
+  display: flex;
+  flex-flow: column;
+  align-items: center
+}
+
+#blog p {
+  margin-right: 3em;
+  margin-left: 3em;
+  
+}
