@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+/* grid for whole website */
+body {
+  background: #FFFFF3;
+  font-family: 'Dosis', sans-serif;
+} 
+
+.site-container {
+  display: grid;
+  grid-template: 1fr 3fr 1fr / 1fr 3fr;
+}
+
+/* navigation bar */
+nav {
+  grid-column: span 3;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grif-template-rows: 1fr
+  border: 2px solid #205D7A
+}
+
+nav ul li {
+  border: 2px solid #205D7A;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: seagreen
+}
+
+nav ul li:hover {
+  text-decoration: none;
+  background: blanchedalmond
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: 
+}
+
+header {
+  padding-top: 50px;
+  background: lightblue;
+  border: 2px solid #205D7A;
+}
+.grid-about-me {
+  grid-column: span 3;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.grid-about-me a {
+  text-decoration: none;
+  color: #205D7A;
+  
+}
+
+.grid-about-me a:hover {
+  text-decoration: none;
+  color: #007bb6
+}
+
+/* photo of moi */
+.grid-about-me img {
+  display: block;
+  border: 3px solid #205D7A;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2em;
+}
+
+/* social media links under header */
+.social-network {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+} 
+
+.social-network li a i {
+	background: #205D7A;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+}
+
+img {
+  width: 15em
+}
+
+.fa-facebook {
+	background:#3b5998
+} 
+.fa-linkedin {
+	background:#007bb6
+}
+.fa-twitter {
+	background:#00aced
+}
+.google-plus {
+	background:#dd4b39
+}
+
+.social-network li a i {
+	transition: all 0.2s ease-in-out;
+}
+.social-network li a i:hover {
+	opacity: .7;
+}
+
+#bio p{
+  display: block;
+  
+  margin-right: 3em;
+  margin-left: 3em;
+  
+}
+
+.grid-footer {
+  grid-column: span 3;
+  text-align: center;
+  margin-top: auto;
+}
