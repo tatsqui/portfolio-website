@@ -30,12 +30,11 @@ nav ul {
 }
 
 nav ul li {
-  border: 2px solid #205D7A;
   padding: 10px;
   text-align: center;
 }
 
-nav ul li a {
+nav ul a {
   text-decoration: none;
   color: white
   
@@ -44,19 +43,14 @@ nav ul li a {
 nav ul li:hover {
   text-decoration: none;
   background: rgb(51, 161, 212);
-  color: seagreen;
+  color: white;
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
-  color: seagreen;
-}
 
 header {
   position: relative;
   padding-top: 7em;
   background: lightblue;
-  border: 2px solid #205D7A;
 }
 .grid-header {
   grid-column: span 3;
