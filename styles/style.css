@@ -48,26 +48,26 @@ header {
   background: lightblue;
   border: 2px solid #205D7A;
 }
-.grid-about-me {
+.grid-header {
   grid-column: span 3;
   justify-content: center;
   text-align: center;
   border-bottom: 2px solid black;
 }
 
-.grid-about-me a {
+.grid-header a {
   text-decoration: none;
   color: #205D7A;
   
 }
 
-.grid-about-me a:hover {
+.grid-header a:hover {
   text-decoration: none;
   color: #007bb6
 }
 
 /* photo of moi */
-.grid-about-me img {
+.grid-header img {
   display: block;
   border: 3px solid #205D7A;
   border-radius: 50%;
@@ -124,14 +124,6 @@ img {
 }
 .social-network li a i:hover {
 	opacity: .7;
-}
-
-#bio p{
-  display: block;
-  
-  margin-right: 3em;
-  margin-left: 3em;
-  
 }
 
 .grid-footer {
