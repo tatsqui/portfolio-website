@@ -1,6 +1,10 @@
 /* Global CSS */
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 
+@media only screen and (max-width: 480px) {
+  /* This CSS will be applied only to phones and other small devices. */
+}
+
 /* grid for whole website */
 body {
   background: #FFFFF3;
